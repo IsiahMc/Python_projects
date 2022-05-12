@@ -1,0 +1,36 @@
+
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! till next time"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I'm ultron, your assistant", "I'm ultron, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me ultron.", "I'm ultron!", "Just call me as ultron"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need support", "I need a help", "I could use some help"],
+    "responses": ["How can I assist you", "Sure, what seems to be the problem", "Yes Sure, How can I support you", "Of course, what do you need?"]
+    },
+    {"tag": "motivation",
+    "patterns": ["Give me some motivation", "Not feeling too motivated today", "Can you motivate me a bit?", "Motivate me", "Im feeling a bit down today"],
+    "responses": ["Hey, You got this keep pushing", "Anything is possible when you put your mind to it", "Stop feeling sorry for yourslef and get it done!", "Your dreams are within your reach", "Whether you thing you can or you cant are both right"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    }
+]
+}
